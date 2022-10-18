@@ -1,7 +1,5 @@
 # spark-k8s-v322
 Spark for spark operator on k8s in version 3.2.2.
-<<<<<<< HEAD
-=======
 
 1. Build Spark Image from binaries
 - Acess below link and download the binaries in version 'spark-3.2.2-bin-hadoop3.2'.
@@ -37,4 +35,3 @@ Insert others jars in the folder before build a new image. In my dockerfile I us
 If you use different python libs, insert them on requirements.txt file.
 
 4. Use the ConfigSpark.yaml to submit your application on k8s and test your image. Peace!
->>>>>>> c060e74 (First commit.)
